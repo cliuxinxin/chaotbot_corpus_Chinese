@@ -10,6 +10,12 @@ https://github.com/codemayq/chaotbot_corpus_Chinese
 # 下载地址
 链接:https://pan.baidu.com/s/1HlxwgryXZBfuVljzGxd-6A  密码:67iq
 
+# 数据格式
+每行是一个样本，先是query，再是answer
+```
+query \t answer
+```
+
 # 数据来源及说明
 语料名称 | 语料数量 | 语料来源说明 | 语料特点 | 语料样例 | 是否已分词|对应文件
 ---|---|---|---|---|---|---
@@ -37,13 +43,7 @@ xiaohuangji（小黄鸡语料） | https://github.com/candlewill/Dialog_Corpus
 以下是原来的说明
 ----
 
-# 生成结果
-每个来源的语料分别生成一个独立的*.tsv文件，都放在新生成的clean_chat_corpus文件夹下。
 
-生成结果格式为 tsv格式，每行是一个样本，先是query，再是answer
-```
-query \t answer
-```
 
 该库搜集了包含
 - chatterbot
