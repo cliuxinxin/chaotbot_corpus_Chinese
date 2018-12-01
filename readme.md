@@ -7,30 +7,8 @@ https://github.com/codemayq/chaotbot_corpus_Chinese
 
 我把数据下载下来，并且做了预处理。大家可以分别下载。
 
-以下是原来的说明
-----
-
-# 生成结果
-每个来源的语料分别生成一个独立的*.tsv文件，都放在新生成的clean_chat_corpus文件夹下。
-
-生成结果格式为 tsv格式，每行是一个样本，先是query，再是answer
-```
-query \t answer
-```
-
-该库搜集了包含
-- chatterbot
-- 豆瓣多轮
-- PTT八卦语料
-- 青云语料
-- 电视剧对白语料
-- 贴吧论坛回帖语料
-- 微博语料
-- 小黄鸡语料
-
-共8个公开闲聊常用语料和短信，白鹭时代问答等语料。
-
-并对8个常见语料的数据进行了统一化规整和处理，达到直接可以粗略使用的目的。
+# 下载地址
+链接:https://pan.baidu.com/s/1HlxwgryXZBfuVljzGxd-6A  密码:67iq
 
 # 数据来源及说明
 语料名称 | 语料数量 | 语料来源说明 | 语料特点 | 语料样例 | 是否已分词|对应文件
@@ -56,8 +34,35 @@ weibo（微博语料）  | 61.93.89.94/Noah_NRM_Data/
 xiaohuangji（小黄鸡语料） | https://github.com/candlewill/Dialog_Corpus 
 
 
-# 使用方法
-链接:https://pan.baidu.com/s/1HlxwgryXZBfuVljzGxd-6A  密码:67iq
+以下是原来的说明
+----
+
+# 生成结果
+每个来源的语料分别生成一个独立的*.tsv文件，都放在新生成的clean_chat_corpus文件夹下。
+
+生成结果格式为 tsv格式，每行是一个样本，先是query，再是answer
+```
+query \t answer
+```
+
+该库搜集了包含
+- chatterbot
+- 豆瓣多轮
+- PTT八卦语料
+- 青云语料
+- 电视剧对白语料
+- 贴吧论坛回帖语料
+- 微博语料
+- 小黄鸡语料
+
+共8个公开闲聊常用语料和短信，白鹭时代问答等语料。
+
+并对8个常见语料的数据进行了统一化规整和处理，达到直接可以粗略使用的目的。
+
+
+
+
+
 
 # 结果的使用
 这个就根据每个人不同的情况自主使用即可
